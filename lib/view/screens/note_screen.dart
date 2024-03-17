@@ -35,7 +35,7 @@ class NoteScreen extends StatelessWidget {
           Navigator.push(
               context, MaterialPageRoute(builder: (context) => HomeScreen()));
         },
-        child: Icon(
+        child: const Icon(
           Icons.check,
           color: Colors.white,
         ),
@@ -46,19 +46,19 @@ class NoteScreen extends StatelessWidget {
           children: [
             TextField(
               controller: _headingController,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: 'Heading',
               ),
             ),
-            SizedBox(height: 16.0),
+            const SizedBox(height: 16.0),
             TextField(
               controller: _contentController,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: 'Content',
               ),
               maxLines: null,
             ),
-            SizedBox(height: 16.0),
+            const SizedBox(height: 16.0),
           ],
         ),
       ),
