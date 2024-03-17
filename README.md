@@ -1,6 +1,9 @@
 # my_notes
 
 A new Flutter project.
+Implementing Gmail and password authentication with Firebase, ensuring secure user access. Developed user-friendly UI and integrated error messaging for seamless authentication experience
+User id: testone@gmail.com
+password: 123456
 
 ## Getting Started
 
